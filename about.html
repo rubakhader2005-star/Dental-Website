@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>لازورد | من نحن</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { theme: { extend: { colors: { lazorda: { green: "#08493d", accent: "#34a853", soft: "#edf8f2" } } } } };
+    </script>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body data-page="about" class="bg-white text-slate-900">
+    <div class="page-shell">
+      <header class="px-4 pt-8">
+        <div class="mx-auto flex max-w-[1320px] items-center justify-between gap-6">
+          <a href="index.html" class="text-[2rem] font-extrabold tracking-tight text-lazorda-green">لازورد</a>
+          <nav class="hidden items-center gap-8 text-[17px] font-medium text-slate-800 xl:flex">
+            <a class="home-nav-link active" data-nav="about" href="about.html">لماذا لازورد</a>
+            <a class="home-nav-link" href="services.html">خدمات المختبرات</a>
+            <a class="home-nav-link" href="solutions.html">الحلول</a>
+            <a class="home-nav-link" href="pricing.html">التسعير</a>
+            <a class="home-nav-link "  href="testimonials.html">التعلّم</a>
+          </nav>
+          <div class="hidden xl:block"><p class="text-[17px] font-semibold text-lazorda-green">هاتف: <span dir="ltr">(970)-0599998531</span></p></div>
+          <div class="hidden items-center gap-3 xl:flex">
+            <a href="contact.html" class="rounded-[8px] border border-lazorda-accent px-6 py-3 text-[16px] font-bold text-lazorda-green transition hover:bg-green-50">تسجيل الدخول</a>
+            <a href="contact.html" class="rounded-[8px] bg-lazorda-accent px-8 py-3 text-[16px] font-bold text-white transition hover:bg-green-600">ابدأ الآن</a>
+          </div>
+          <button data-mobile-toggle class="rounded-full border border-slate-200 p-3 xl:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-slate-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 6h16M4 12h16M4 18h16" /></svg></button>
+        </div>
+        <div data-mobile-menu class="mx-auto mt-4 hidden max-w-[1320px] rounded-[18px] border border-slate-200 bg-white p-5 xl:hidden"><div class="flex flex-col gap-4 text-right text-base font-semibold text-slate-800"><a class="home-nav-link" href="index.html">لماذا لازورد</a><a class="home-nav-link" href="services.html">خدمات المختبرات</a><a class="home-nav-link" href="solutions.html">الحلول</a><a class="home-nav-link" href="pricing.html">التسعير</a><a class="home-nav-link active" data-nav="about" href="about.html">التعلّم</a><p class="pt-2 text-sm font-bold text-lazorda-green">هاتف: <span dir="ltr">(970)-0599998531</span></p><div class="flex flex-col gap-3 pt-2"><a href="contact.html" class="rounded-[8px] border border-lazorda-accent px-5 py-3 text-center font-bold text-lazorda-green">تسجيل الدخول</a><a href="contact.html" class="rounded-[8px] bg-lazorda-accent px-5 py-3 text-center font-bold text-white">ابدأ الآن</a></div></div></div>
+      </header>
+      <main class="px-4 pb-20">
+        <section class="page-hero mx-auto mt-8 grid max-w-[1320px] items-center gap-8 rounded-[24px] bg-lazorda-green px-8 py-12 text-white lg:grid-cols-[1.05fr_0.95fr]">
+          <div><h1 class="text-center text-[2.5rem] font-extrabold md:text-[3.1rem] lg:text-right">من نحن</h1><p class="mx-auto mt-5 max-w-[720px] text-center text-[1.05rem] leading-[2] text-white/90 lg:mx-0 lg:text-right">لازورد مساحة رقمية تجمع بين المختبر والخبرة السريرية داخل تجربة واحدة مرتبة، هدفها تقليل الفوضى اليومية داخل العيادة وتحويل العمل إلى خطوات أوضح وأسرع وأكثر ثقة.</p></div>
+          <div class="overflow-hidden rounded-[20px] bg-white/10"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80" alt="فريق طبي رقمي" class="h-[320px] w-full object-cover md:h-[420px]" /></div>
+        </section>
+        <section class="reveal mx-auto mt-14 grid max-w-[1320px] gap-6 lg:grid-cols-3">
+          <article class="info-card rounded-[24px] bg-white p-7 shadow-[0_10px_35px_rgba(15,23,42,0.06)]"><h2 class="text-[1.55rem] font-extrabold text-lazorda-green">رؤيتنا</h2><p class="mt-4 text-[1rem] leading-[2] text-slate-700">نبني مستقبلًا تكون فيه كل حالة علاجية أوضح من أول لحظة، ويصبح التواصل بين الطبيب والمختبر جزءًا طبيعيًا وسريعًا من يوم العمل.</p></article>
+          <article class="info-card rounded-[24px] bg-white p-7 shadow-[0_10px_35px_rgba(15,23,42,0.06)]"><h2 class="text-[1.55rem] font-extrabold text-lazorda-green">رسالتنا</h2><p class="mt-4 text-[1rem] leading-[2] text-slate-700">نقدم أدوات رقمية وتجربة تعاون عملية تساعد العيادات على تقليل التأخير، تحسين جودة القرارات، ورفع رضا المرضى.</p></article>
+          <article class="info-card rounded-[24px] bg-white p-7 shadow-[0_10px_35px_rgba(15,23,42,0.06)]"><h2 class="text-[1.55rem] font-extrabold text-lazorda-green">قيمنا</h2><p class="mt-4 text-[1rem] leading-[2] text-slate-700">الوضوح، الدقة، وسهولة الاستخدام. نؤمن أن التقنية الجيدة يجب أن تقلل التعقيد لا أن تزيده.</p></article>
+        </section>
+        <section class="reveal mx-auto mt-14 grid max-w-[1320px] gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+          <div class="rounded-[26px] bg-slate-50 p-8">
+            <h2 class="text-[1.8rem] font-extrabold text-slate-900">لماذا نختلف؟</h2>
+            <div class="mt-6 space-y-5">
+              <div class="rounded-[20px] bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.05)]"><h3 class="text-[1.08rem] font-extrabold text-lazorda-green">تجربة تعاون مباشرة</h3><p class="mt-2 text-[0.95rem] leading-[1.9] text-slate-700">بدل الرسائل المبعثرة، تصبح كل الملاحظات والتحديثات في مكان واحد.</p></div>
+              <div class="rounded-[20px] bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.05)]"><h3 class="text-[1.08rem] font-extrabold text-lazorda-green">قرارات أسرع</h3><p class="mt-2 text-[0.95rem] leading-[1.9] text-slate-700">نقلل زمن الانتظار بين المسح والمراجعة والتنفيذ داخل واجهة مرتبة وسهلة.</p></div>
+              <div class="rounded-[20px] bg-white p-5 shadow-[0_8px_24px_rgba(15,23,42,0.05)]"><h3 class="text-[1.08rem] font-extrabold text-lazorda-green">محتوى تدريبي دائم</h3><p class="mt-2 text-[0.95rem] leading-[1.9] text-slate-700">نساعد الفريق على التطور التدريجي في تبني الأدوات الرقمية بثقة أعلى.</p></div>
+            </div>
+          </div>
+          <div class="overflow-hidden rounded-[26px] bg-white shadow-[0_18px_44px_rgba(15,23,42,0.08)]"><img src="https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&w=1200&q=80" alt="اجتماع فريق عيادة" class="h-[420px] w-full object-cover" /></div>
+        </section>
+      </main>
+      <footer class="footer-dark mt-20 px-4 py-14 text-white">
+        <div class="mx-auto grid max-w-[1120px] gap-10 md:grid-cols-4">
+          <div><h3 class="text-[1.7rem] font-extrabold">لازورد</h3><p class="mt-4 text-[0.95rem] leading-[1.95] text-white/80">شريكك في بناء تجربة رقمية أهدأ، أسرع، وأكثر موثوقية في طب الأسنان الحديث.</p></div>
+          <div><h4 class="text-[1.15rem] font-bold">المنصة</h4><ul class="mt-4 space-y-3 text-white/80"><li><a href="services.html">الخدمات</a></li><li><a href="about.html">من نحن</a></li><li><a href="team.html">الفريق</a></li></ul></div>
+          <div><h4 class="text-[1.15rem] font-bold">المحتوى</h4><ul class="mt-4 space-y-3 text-white/80"><li><a href="solutions.html">الحلول</a></li><li><a href="testimonials.html">الآراء</a></li><li><a href="contact.html">التواصل</a></li></ul></div>
+          <div><h4 class="text-[1.15rem] font-bold">ابدأ اليوم</h4><p class="mt-4 text-[0.95rem] leading-[1.9] text-white/80">هل أنت مستعد لتحديث تجربة مختبر الأسنان في عيادتك؟</p><a href="contact.html" class="cta-button mt-5 inline-flex rounded-[12px] bg-white px-6 py-3 font-bold text-lazorda-green">احجز استشارة</a></div>
+        </div>
+      </footer>
+    </div>
+    <div class="toast" data-toast></div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
