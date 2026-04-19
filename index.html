@@ -1,23 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>لازورد | الرئيسية</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              lazorda: { green: "#08493d", accent: "#34a853", soft: "#edf8f2" }
-            }
-          }
-        }
+              lazorda: { green: "#08493d", accent: "#34a853", soft: "#edf8f2" },
+            },
+          },
+        },
       };
     </script>
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -25,56 +31,122 @@
   <body data-page="home" class="home-body bg-white text-slate-900">
     <div class="page-shell">
       <header class="px-4 pt-8">
-        <div class="mx-auto flex max-w-[1320px] items-center justify-between gap-6">
-          <a href="index.html" class="text-[2rem] font-extrabold tracking-tight text-lazorda-green">لازورد</a>
-          <nav class="hidden items-center gap-8 text-[17px] font-medium text-slate-800 xl:flex">
-            <a class="home-nav-link "  href="about.html">لماذا لازورد</a>
+        <div
+          class="mx-auto flex max-w-[1320px] items-center justify-between gap-6"
+        >
+          <a
+            href="index.html"
+            class="text-[2rem] font-extrabold tracking-tight text-lazorda-green"
+            >لازورد</a
+          >
+          <nav
+            class="hidden items-center gap-8 text-[17px] font-medium text-slate-800 xl:flex"
+          >
+            <a class="home-nav-link" href="about.html">لماذا لازورد</a>
             <a class="home-nav-link" href="services.html">خدمات المختبرات</a>
             <a class="home-nav-link" href="solutions.html">الحلول</a>
             <a class="home-nav-link" href="pricing.html">التسعير</a>
             <a class="home-nav-link" href="testimonials.html">التعلّم</a>
           </nav>
           <div class="hidden xl:block">
-            <p class="text-[17px] font-semibold text-lazorda-green">هاتف: <span dir="ltr">(970)-0599998531</span></p>
+            <p class="text-[17px] font-semibold text-lazorda-green">
+              هاتف: <span dir="ltr">(970)-0599998531</span>
+            </p>
           </div>
           <div class="hidden items-center gap-3 xl:flex">
-            <a href="index.html" class="rounded-[8px] border border-lazorda-accent px-6 py-3 text-[16px] font-bold text-lazorda-green transition hover:bg-green-50">تسجيل الدخول</a>
-            <a href="contact.html" class="rounded-[8px] bg-lazorda-accent px-8 py-3 text-[16px] font-bold text-white transition hover:bg-green-600">ابدأ الآن</a>
+            <a
+              href="index.html"
+              class="rounded-[8px] border border-lazorda-accent px-6 py-3 text-[16px] font-bold text-lazorda-green transition hover:bg-green-50"
+              >تسجيل الدخول</a
+            >
+            <a
+              href="contact.html"
+              class="rounded-[8px] bg-lazorda-accent px-8 py-3 text-[16px] font-bold text-white transition hover:bg-green-600"
+              >ابدأ الآن</a
+            >
           </div>
-          <button data-mobile-toggle class="rounded-full border border-slate-200 p-3 xl:hidden hover:bg-slate-100 transition">
+          <button
+            data-mobile-toggle
+            class="rounded-full border border-slate-200 p-3 xl:hidden hover:bg-slate-100 transition"
+          >
             <i class="fa-solid fa-bars text-slate-700 text-lg"></i>
           </button>
         </div>
-        <div data-mobile-menu class="mx-auto mt-4 hidden max-w-[1320px] rounded-[18px] border border-slate-200 bg-white p-5 xl:hidden">
-          <div class="flex flex-col gap-4 text-right text-base font-semibold text-slate-800">
-            <a class="home-nav-link active" data-nav="home" href="index.html">لماذا لازورد</a>
+        <div
+          data-mobile-menu
+          class="mx-auto mt-4 hidden max-w-[1320px] rounded-[18px] border border-slate-200 bg-white p-5 xl:hidden"
+        >
+          <div
+            class="flex flex-col gap-4 text-right text-base font-semibold text-slate-800"
+          >
+            <a class="home-nav-link" href="about.html">لماذا لازورد</a>
             <a class="home-nav-link" href="services.html">خدمات المختبرات</a>
             <a class="home-nav-link" href="solutions.html">الحلول</a>
             <a class="home-nav-link" href="pricing.html">التسعير</a>
-            <a class="home-nav-link" href="about.html">التعلّم</a>
-            <p class="pt-2 text-sm font-bold text-lazorda-green">هاتف: <span dir="ltr">(970)-0599998531</span></p>
+            <a class="home-nav-link" href="testimonials.html">التعلّم</a>
+            <p class="pt-2 text-sm font-bold text-lazorda-green">
+              هاتف: <span dir="ltr">(970)-0599998531</span>
+            </p>
             <div class="flex flex-col gap-3 pt-2">
-              <a href="contact.html" class="rounded-[8px] border border-lazorda-accent px-5 py-3 text-center font-bold text-lazorda-green">تسجيل الدخول</a>
-              <a href="contact.html" class="rounded-[8px] bg-lazorda-accent px-5 py-3 text-center font-bold text-white">ابدأ الآن</a>
+              <a
+                href="index.html"
+                class="rounded-[8px] border border-lazorda-accent px-5 py-3 text-center font-bold text-lazorda-green"
+                >تسجيل الدخول</a
+              >
+              <a
+                href="contact.html"
+                class="rounded-[8px] bg-lazorda-accent px-5 py-3 text-center font-bold text-white"
+                >ابدأ الآن</a
+              >
             </div>
           </div>
         </div>
       </header>
       <main class="px-4 pb-24">
         <section class="page-hero mx-auto max-w-[1320px] pt-6 md:pt-10">
-          <div class="grid items-center gap-8 xl:grid-cols-[0.92fr_1fr] xl:gap-10">
+          <div
+            class="grid items-center gap-8 xl:grid-cols-[0.92fr_1fr] xl:gap-10"
+          >
             <div class="order-2 xl:order-1">
-              <div class="home-hero-image overflow-hidden rounded-[10px] bg-slate-100">
-                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1400&q=80" alt="فنية تعمل في مختبر الأسنان" class="h-[290px] w-full object-cover md:h-[360px] xl:h-[420px]" />
+              <div
+                class="home-hero-image overflow-hidden rounded-[10px] bg-slate-100"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1400&q=80"
+                  alt="فنية تعمل في مختبر الأسنان"
+                  class="h-[290px] w-full object-cover md:h-[360px] xl:h-[420px]"
+                />
               </div>
             </div>
             <div class="order-1 xl:order-2">
-              <div class="home-hero-card rounded-[18px] bg-lazorda-green px-7 py-9 text-white md:px-9 md:py-12 xl:min-h-[68svh] xl:py-12">
-                <h1 class="text-center text-[1.85rem] font-extrabold leading-[1.65] md:text-[2.4rem] xl:text-[2.85rem]">مختبر الأسنان الرقمي<br />مع التواصل في الوقت<br />الحقيقي</h1>
-                <p class="mx-auto mt-6 max-w-[500px] text-center text-[0.98rem] leading-[1.95] text-white/90 md:text-[1.08rem]">نحن نعمل على تمكين العيادات من خلال تدفقات عمل رقمية أكثر وضوحًا، لرفع جودة الرعاية، وتسريع اتخاذ القرار، وتحسين التعاون بين الطبيب والمختبر.</p>
-                <div class="mt-10 flex flex-col-reverse justify-center gap-4 sm:flex-row">
-                  <a href="contact.html" class="cta-button rounded-[8px] bg-white px-8 py-3.5 text-center text-[1.2rem] font-black text-slate-900">ابدأ الآن</a>
-                  <a href="contact.html" class="cta-button rounded-[8px] border-2 border-white px-8 py-3.5 text-center text-[1.2rem] font-bold text-white hover:bg-white hover:text-lazorda-green">شاهد الفيديو</a>
+              <div
+                class="home-hero-card rounded-[18px] bg-lazorda-green px-7 py-9 text-white md:px-9 md:py-12 xl:min-h-[68svh] xl:py-12"
+              >
+                <h1
+                  class="text-center text-[1.85rem] font-extrabold leading-[1.65] md:text-[2.4rem] xl:text-[2.85rem]"
+                >
+                  مختبر الأسنان الرقمي<br />مع التواصل في الوقت<br />الحقيقي
+                </h1>
+                <p
+                  class="mx-auto mt-6 max-w-[500px] text-center text-[0.98rem] leading-[1.95] text-white/90 md:text-[1.08rem]"
+                >
+                  نحن نعمل على تمكين العيادات من خلال تدفقات عمل رقمية أكثر
+                  وضوحًا، لرفع جودة الرعاية، وتسريع اتخاذ القرار، وتحسين التعاون
+                  بين الطبيب والمختبر.
+                </p>
+                <div
+                  class="mt-10 flex flex-col-reverse justify-center gap-4 sm:flex-row"
+                >
+                  <a
+                    href="contact.html"
+                    class="cta-button rounded-[8px] bg-white px-8 py-3.5 text-center text-[1.2rem] font-black text-slate-900"
+                    >ابدأ الآن</a
+                  >
+                  <a
+                    href="contact.html"
+                    class="cta-button rounded-[8px] border-2 border-white px-8 py-3.5 text-center text-[1.2rem] font-bold text-white hover:bg-white hover:text-lazorda-green"
+                    >شاهد الفيديو</a
+                  >
                 </div>
               </div>
             </div>
@@ -82,90 +154,390 @@
         </section>
 
         <section class="reveal mx-auto mt-20 max-w-[1120px]">
-          <div class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10">
+          <div
+            class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10"
+          >
             <div class="text-center">
-              <h2 class="home-section-heading text-[1.48rem] font-extrabold leading-tight text-slate-900 md:text-[1.9rem]">تعزيز مستقبل طب الأسنان الرقمي</h2>
-              <p class="home-section-copy mx-auto mt-3 max-w-[780px] text-[0.92rem] leading-[1.9] text-slate-700 md:text-[0.98rem]">نمنح العيادات تجربة رقمية أكثر ثباتًا من خلال العمل التعاوني، والأدوات المخبرية المتقدمة، والدعم السريع في كل مرحلة من مراحل الحالة.</p>
+              <h2
+                class="home-section-heading text-[1.48rem] font-extrabold leading-tight text-slate-900 md:text-[1.9rem]"
+              >
+                تعزيز مستقبل طب الأسنان الرقمي
+              </h2>
+              <p
+                class="home-section-copy mx-auto mt-3 max-w-[780px] text-[0.92rem] leading-[1.9] text-slate-700 md:text-[0.98rem]"
+              >
+                نمنح العيادات تجربة رقمية أكثر ثباتًا من خلال العمل التعاوني،
+                والأدوات المخبرية المتقدمة، والدعم السريع في كل مرحلة من مراحل
+                الحالة.
+              </p>
             </div>
             <div class="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-              <article class="feature-card rounded-[20px] border border-slate-100 bg-white p-5 text-center shadow-[0_8px_24px_rgba(15,23,42,0.04)]"><div class="mx-auto flex h-[56px] w-[56px] items-center justify-center rounded-[15px] border border-green-100 bg-lazorda-soft text-lazorda-accent"><svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 10h8M8 14h5M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg></div><h3 class="mt-4 text-[1.12rem] font-extrabold text-slate-900">سير العمل التعاوني</h3><p class="mt-2 text-[0.92rem] leading-[1.85] text-slate-700">احصل على ملاحظات المسح والتعديلات في الوقت الفعلي مع وضوح أكبر في كل خطوة.</p></article>
-              <article class="feature-card rounded-[20px] border border-slate-100 bg-white p-5 text-center shadow-[0_8px_24px_rgba(15,23,42,0.04)]"><div class="mx-auto flex h-[56px] w-[56px] items-center justify-center rounded-[15px] border border-green-100 bg-lazorda-soft text-lazorda-accent"><svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a4 4 0 00-5.656-5.656L6 17.544V21h3.456l7.772-7.772z" /></svg></div><h3 class="mt-4 text-[1.12rem] font-extrabold text-slate-900">المنتجات المبتكرة</h3><p class="mt-2 text-[0.92rem] leading-[1.85] text-slate-700">حلول ترميمية رقمية تساعدك على تقديم نتائج أسرع وأكثر اتساقًا للحالات المختلفة.</p></article>
-              <article class="feature-card rounded-[20px] border border-slate-100 bg-white p-5 text-center shadow-[0_8px_24px_rgba(15,23,42,0.04)]"><div class="mx-auto flex h-[56px] w-[56px] items-center justify-center rounded-[15px] border border-green-100 bg-lazorda-soft text-lazorda-accent"><svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 3v6l-2 2h8.5a2 2 0 002-2V5a2 2 0 00-2-2h-6.5zM5.75 9h6l2-2v10a2 2 0 01-2 2h-6a2 2 0 01-2-2v-6a2 2 0 012-2z" /></svg></div><h3 class="mt-4 text-[1.12rem] font-extrabold text-slate-900">مختبر رقمي بالكامل</h3><p class="mt-2 text-[0.92rem] leading-[1.85] text-slate-700">خبرة عملية في أحدث تقنيات طب الأسنان وأدوات التسليم داخل تجربة واحدة متكاملة.</p></article>
-              <article class="feature-card rounded-[20px] border border-slate-100 bg-white p-5 text-center shadow-[0_8px_24px_rgba(15,23,42,0.04)]"><div class="mx-auto flex h-[56px] w-[56px] items-center justify-center rounded-[15px] border border-green-100 bg-lazorda-soft text-lazorda-accent"><svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18 10c0 3.314-2.686 6-6 6S6 13.314 6 10m12 0a6 6 0 10-12 0m12 0v5a2 2 0 01-2 2H8a2 2 0 01-2-2v-5" /></svg></div><h3 class="mt-4 text-[1.12rem] font-extrabold text-slate-900">الخبرة عند الطلب</h3><p class="mt-2 text-[0.92rem] leading-[1.85] text-slate-700">إرشادات ودعم سريع عبر القنوات الرقمية المختلفة لمساعدتك في كل مرحلة.</p></article>
+              <article
+                class="feature-card rounded-[20px] border border-slate-100 bg-white p-5 text-center shadow-[0_8px_24px_rgba(15,23,42,0.04)]"
+              >
+                <div
+                  class="mx-auto flex h-[56px] w-[56px] items-center justify-center rounded-[15px] border border-green-100 bg-lazorda-soft text-lazorda-accent"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-7 w-7"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M8 10h8M8 14h5M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="mt-4 text-[1.12rem] font-extrabold text-slate-900">
+                  سير العمل التعاوني
+                </h3>
+                <p class="mt-2 text-[0.92rem] leading-[1.85] text-slate-700">
+                  احصل على ملاحظات المسح والتعديلات في الوقت الفعلي مع وضوح أكبر
+                  في كل خطوة.
+                </p>
+              </article>
+              <article
+                class="feature-card rounded-[20px] border border-slate-100 bg-white p-5 text-center shadow-[0_8px_24px_rgba(15,23,42,0.04)]"
+              >
+                <div
+                  class="mx-auto flex h-[56px] w-[56px] items-center justify-center rounded-[15px] border border-green-100 bg-lazorda-soft text-lazorda-accent"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-7 w-7"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M19.428 15.428a4 4 0 00-5.656-5.656L6 17.544V21h3.456l7.772-7.772z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="mt-4 text-[1.12rem] font-extrabold text-slate-900">
+                  المنتجات المبتكرة
+                </h3>
+                <p class="mt-2 text-[0.92rem] leading-[1.85] text-slate-700">
+                  حلول ترميمية رقمية تساعدك على تقديم نتائج أسرع وأكثر اتساقًا
+                  للحالات المختلفة.
+                </p>
+              </article>
+              <article
+                class="feature-card rounded-[20px] border border-slate-100 bg-white p-5 text-center shadow-[0_8px_24px_rgba(15,23,42,0.04)]"
+              >
+                <div
+                  class="mx-auto flex h-[56px] w-[56px] items-center justify-center rounded-[15px] border border-green-100 bg-lazorda-soft text-lazorda-accent"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-7 w-7"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M9.75 3v6l-2 2h8.5a2 2 0 002-2V5a2 2 0 00-2-2h-6.5zM5.75 9h6l2-2v10a2 2 0 01-2 2h-6a2 2 0 01-2-2v-6a2 2 0 012-2z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="mt-4 text-[1.12rem] font-extrabold text-slate-900">
+                  مختبر رقمي بالكامل
+                </h3>
+                <p class="mt-2 text-[0.92rem] leading-[1.85] text-slate-700">
+                  خبرة عملية في أحدث تقنيات طب الأسنان وأدوات التسليم داخل تجربة
+                  واحدة متكاملة.
+                </p>
+              </article>
+              <article
+                class="feature-card rounded-[20px] border border-slate-100 bg-white p-5 text-center shadow-[0_8px_24px_rgba(15,23,42,0.04)]"
+              >
+                <div
+                  class="mx-auto flex h-[56px] w-[56px] items-center justify-center rounded-[15px] border border-green-100 bg-lazorda-soft text-lazorda-accent"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-7 w-7"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M18 10c0 3.314-2.686 6-6 6S6 13.314 6 10m12 0a6 6 0 10-12 0m12 0v5a2 2 0 01-2 2H8a2 2 0 01-2-2v-5"
+                    />
+                  </svg>
+                </div>
+                <h3 class="mt-4 text-[1.12rem] font-extrabold text-slate-900">
+                  الخبرة عند الطلب
+                </h3>
+                <p class="mt-2 text-[0.92rem] leading-[1.85] text-slate-700">
+                  إرشادات ودعم سريع عبر القنوات الرقمية المختلفة لمساعدتك في كل
+                  مرحلة.
+                </p>
+              </article>
             </div>
           </div>
         </section>
 
         <section class="reveal mx-auto mt-20 max-w-[1120px] px-2 py-2 md:px-0">
-          <div class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10">
+          <div
+            class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10"
+          >
             <div class="text-center">
-              <h2 class="home-section-heading text-[1.52rem] font-extrabold leading-tight text-slate-900 md:text-[1.95rem]">أطلق العنان للابتكار الرائد في السوق مع مختبر طب الأسنان الخاص بنا</h2>
-              <p class="home-section-copy mx-auto mt-3 max-w-[800px] text-[0.92rem] leading-[1.9] text-slate-700 md:text-[0.99rem]">استكشف مجموعة منتجات رقمية عملية تساعدك في تقديم حلول علاجية أكثر دقة وسرعة، مع مظهر بصري واضح ومرتب.</p>
+              <h2
+                class="home-section-heading text-[1.52rem] font-extrabold leading-tight text-slate-900 md:text-[1.95rem]"
+              >
+                أطلق العنان للابتكار الرائد في السوق مع مختبر طب الأسنان الخاص
+                بنا
+              </h2>
+              <p
+                class="home-section-copy mx-auto mt-3 max-w-[800px] text-[0.92rem] leading-[1.9] text-slate-700 md:text-[0.99rem]"
+              >
+                استكشف مجموعة منتجات رقمية عملية تساعدك في تقديم حلول علاجية
+                أكثر دقة وسرعة، مع مظهر بصري واضح ومرتب.
+              </p>
             </div>
-            <div class="mx-auto mt-8 grid max-w-[860px] gap-x-4 gap-y-7 sm:grid-cols-2 lg:grid-cols-4">
-              <article class="product-card"><div class="product-visual"><img src="https://img.icons8.com/?size=160&id=DN1XtHPy5ZBE&format=png&color=000000" alt="تيجان الزركونيا" class="product-net-image" /></div><h3>تيجان الزركونيا لمدة 5 أيام</h3></article>
-              <article class="product-card"><div class="product-visual"><img src="https://img.icons8.com/?size=160&id=gYyOPYDuSMPB&format=png&color=000000" alt="زراعة الأسنان" class="product-net-image" /></div><h3>حلول زراعة الأسنان الشاملة</h3></article>
-              <article class="product-card"><div class="product-visual"><img src="https://img.icons8.com/?size=160&id=3TfdtSU3Ydn6&format=png&color=000000" alt="أطقم الأسنان" class="product-net-image" /></div><h3>أطقم الأسنان في الموعد النهائي</h3></article>
-              <article class="product-card"><div class="product-visual"><img src="https://img.icons8.com/?size=160&id=gYyOPYDuSMPB&format=png&color=000000" alt="أجزاء مباشرة" class="product-net-image" /></div><h3>أجزاء مباشرة إلى النهاية</h3></article>
-              <article class="product-card lg:col-start-2"><div class="product-visual"><img src="https://img.icons8.com/?size=160&id=DN1XtHPy5ZBE&format=png&color=000000" alt="واقيات ليلية" class="product-net-image" /></div><h3>واقيات ليلية مطبوعة بتقنية ثلاثية الأبعاد</h3></article>
-              <article class="product-card"><div class="product-visual"><img src="https://img.icons8.com/?size=160&id=31263&format=png&color=000000" alt="تقويم شفاف" class="product-net-image" /></div><h3>تقويم الأسنان الشفاف</h3></article>
-              <article class="product-card"><div class="product-visual"><img src="https://img.icons8.com/?size=160&id=3TfdtSU3Ydn6&format=png&color=000000" alt="أجهزة النوم" class="product-net-image" /></div><h3>أجهزة علاج انقطاع التنفس أثناء النوم</h3></article>
+            <div
+              class="mx-auto mt-8 grid max-w-[860px] gap-x-4 gap-y-7 sm:grid-cols-2 lg:grid-cols-4"
+            >
+              <article class="product-card">
+                <div class="product-visual">
+                  <img
+                    src="https://img.icons8.com/?size=160&id=DN1XtHPy5ZBE&format=png&color=000000"
+                    alt="تيجان الزركونيا"
+                    class="product-net-image"
+                  />
+                </div>
+                <h3>تيجان الزركونيا لمدة 5 أيام</h3>
+              </article>
+              <article class="product-card">
+                <div class="product-visual">
+                  <img
+                    src="https://img.icons8.com/?size=160&id=gYyOPYDuSMPB&format=png&color=000000"
+                    alt="زراعة الأسنان"
+                    class="product-net-image"
+                  />
+                </div>
+                <h3>حلول زراعة الأسنان الشاملة</h3>
+              </article>
+              <article class="product-card">
+                <div class="product-visual">
+                  <img
+                    src="https://img.icons8.com/?size=160&id=3TfdtSU3Ydn6&format=png&color=000000"
+                    alt="أطقم الأسنان"
+                    class="product-net-image"
+                  />
+                </div>
+                <h3>أطقم الأسنان في الموعد النهائي</h3>
+              </article>
+              <article class="product-card">
+                <div class="product-visual">
+                  <img
+                    src="https://img.icons8.com/?size=160&id=gYyOPYDuSMPB&format=png&color=000000"
+                    alt="أجزاء مباشرة"
+                    class="product-net-image"
+                  />
+                </div>
+                <h3>أجزاء مباشرة إلى النهاية</h3>
+              </article>
+              <article class="product-card lg:col-start-2">
+                <div class="product-visual">
+                  <img
+                    src="https://img.icons8.com/?size=160&id=DN1XtHPy5ZBE&format=png&color=000000"
+                    alt="واقيات ليلية"
+                    class="product-net-image"
+                  />
+                </div>
+                <h3>واقيات ليلية مطبوعة بتقنية ثلاثية الأبعاد</h3>
+              </article>
+              <article class="product-card">
+                <div class="product-visual">
+                  <img
+                    src="https://img.icons8.com/?size=160&id=31263&format=png&color=000000"
+                    alt="تقويم شفاف"
+                    class="product-net-image"
+                  />
+                </div>
+                <h3>تقويم الأسنان الشفاف</h3>
+              </article>
+              <article class="product-card">
+                <div class="product-visual">
+                  <img
+                    src="https://img.icons8.com/?size=160&id=3TfdtSU3Ydn6&format=png&color=000000"
+                    alt="أجهزة النوم"
+                    class="product-net-image"
+                  />
+                </div>
+                <h3>أجهزة علاج انقطاع التنفس أثناء النوم</h3>
+              </article>
             </div>
             <div class="mt-9 text-center">
-              <a href="services.html" class="cta-button inline-flex rounded-[10px] bg-lazorda-accent px-7 py-3 text-[0.92rem] font-bold text-white">استكشف جميع منتجات المختبر</a>
+              <a
+                href="services.html"
+                class="cta-button inline-flex rounded-[10px] bg-lazorda-accent px-7 py-3 text-[0.92rem] font-bold text-white"
+                >استكشف جميع منتجات المختبر</a
+              >
             </div>
           </div>
         </section>
 
         <section class="reveal mx-auto mt-20 max-w-[1120px]">
-          <div class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10">
-            <div class="text-center">
-              <h2 class="home-section-heading text-[1.56rem] font-extrabold leading-tight text-slate-900 md:text-[2rem]">قم بتحويل ممارستك باستخدام سير عمل رقمي مثبت</h2>
-              <p class="home-section-copy mx-auto mt-3 max-w-[700px] text-[0.92rem] leading-[1.9] text-slate-700 md:text-[0.99rem]">استمتع بمستوى من التحكم لم يكن ممكنًا من قبل.</p>
-            </div>
-            <div class="mt-8 grid items-start gap-7 lg:grid-cols-[0.95fr_1.05fr]">
-              <div class="workflow-image-card overflow-hidden rounded-[22px] bg-slate-100">
-                <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1200&q=80" alt="استشارة رقمية في عيادة أسنان" class="h-[300px] w-full object-cover md:h-[360px]" />
+          <div class="max-w-6xl w-full">
+            <div class="grid md:grid-cols-2 gap-8">
+              <div class="bg-white rounded-2xl p-8 shadow-xl flex flex-col justify-between">
+                <div>
+                  <h2 class="text-[#004d43] text-2xl font-bold mb-4"> هل أنت جديد في مجال المسح الضوئي؟</h2>
+                  <p class="text-gray-600 mb-6 leading-relaxed">  تقديم نتائج متوقعة للمرضى باستخدام التكنولوجيا والأدوات المبتكرة التي تمنحك التحكم النهائي.</p>
+
+                  <ul class="space-y-3 mb-8">
+                    <li class="flex items-center text-gray-700"><span class="text-green-500 ml-2">✓</span> الماسح الضوئي3Shape TRIOS المجاني</li>
+                    <li class="flex items-center text-gray-700"><span class="text-green-500 ml-2">✓</span> سير عمل المسح الرقمي الموجه</li>
+                    <li class="flex items-center text-gray-700"> <span class="text-green-500 ml-2">✓</span> تدفقات العمل الرقمية لأطقم الأسنان وأكثر من ذلك </li>
+                    <li class="flex items-center text-gray-700"><span class="text-green-500 ml-2">✓</span> معاينات تصميم مجانية لإضفاء اللمسات النهائية على القضايا المهمة </li>
+                  </ul>
+                </div>
+
+                <button class="bg-green-600 text-white py-3 px-8 rounded-lg font-bold hover:bg-opacity-90 transition self-start md:self-end" > سجل الآن</button>
               </div>
-              <div class="space-y-4">
-                <article class="accordion-item open" data-accordion-item"><button class="accordion-trigger" type="button" data-accordion-trigger><span>المسح الضوئي بدقة وثقة</span><span class="accordion-icon">⌄</span></button><div class="accordion-panel" data-accordion-panel><p>ابدأ كل حالة بمسح رقمي واضح يلتقط التفاصيل الدقيقة بسرعة، مع تدقيق أولي يساعدك على تقليل الإعادات ورفع جودة البداية.</p></div></article>
-                <article class="accordion-item" data-accordion-item"><button class="accordion-trigger" type="button" data-accordion-trigger><span>اطلب العمل المخبري باستخدام الوصفات الطبية الرقمية</span><span class="accordion-icon">⌄</span></button><div class="accordion-panel" data-accordion-panel><p>أنشئ وصفة رقمية مرتبة تشمل كل تعليمات الحالة والصور والملاحظات، ليصل فريق المختبر إلى كل التفاصيل من أول مرة.</p></div></article>
-                <article class="accordion-item" data-accordion-item"><button class="accordion-trigger" type="button" data-accordion-trigger><span>الموافقة على التصاميم الرقمية قبل التصنيع</span><span class="accordion-icon">⌄</span></button><div class="accordion-panel" data-accordion-panel><p>راجع التصاميم، اطلب التعديلات، ووافق على الحالة قبل التنفيذ النهائي لتحتفظ بتحكم كامل في كل خطوة.</p></div></article>
-                <article class="accordion-item" data-accordion-item"><button class="accordion-trigger" type="button" data-accordion-trigger><span>تتبع الحالات في الوقت الفعلي</span><span class="accordion-icon">⌄</span></button><div class="accordion-panel" data-accordion-panel><p>تابع حالة كل طلب من الاستلام إلى المراجعة والتصنيع والتسليم، مع رؤية أوضح تقلل المكالمات والمتابعة اليدوية.</p></div></article>
+              <div class="bg-white rounded-2xl p-8 shadow-xl flex flex-col justify-between">
+                <div>
+                  <h2 class="text-[#004d43] text-2xl font-bold mb-4"> هل تقوم بالمسح الضوئي بالفعل؟ </h2>
+                  <p class="text-gray-600 mb-6 leading-relaxed"> قم بتنمية ممارستك من خلال الانتقال إلى سير العمل الرقمي باستخدام مجموعة أدوات طب الأسنان الرقمية المثبتة لدينا. </p>
+
+                  <ul class="space-y-3 mb-8">
+                    <li class="flex items-center text-gray-700"> <span class="text-green-500 ml-2">✓</span> الماسح الضوئي 3Shape TRIOS المجاني</li>
+                    <li class="flex items-center text-gray-700"> <span class="text-green-500 ml-2">✓</span> سير عمل المسح الرقمي الموجه</li>
+                    <li class="flex items-center text-gray-700"><span class="text-green-500 ml-2">✓</span> مراجعات المسح المباشر المجانية لمزيد من الثقة </li>
+                    <li class="flex items-center text-gray-700"><span class="text-green-500 ml-2">✓</span> تدريب ودعم غير محدود</li>
+                  </ul>
+                </div>
+                <button class="bg-green-600 text-white py-3 px-6 rounded-lg font-bold hover:bg-green-700 transition self-start" > احصل على الماسح الضوئي المجاني الخاص بك </button>
               </div>
             </div>
           </div>
         </section>
 
         <section class="reveal mx-auto mt-20 max-w-[1120px]">
-          <div class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10">
+          <div
+            class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10"
+          >
             <div class="text-center">
-              <h2 class="home-section-heading text-[1.52rem] font-extrabold leading-tight text-slate-900 md:text-[1.95rem]">تحقيق نتائج أفضل لممارستك ومرضاك</h2>
+              <h2
+                class="home-section-heading text-[1.52rem] font-extrabold leading-tight text-slate-900 md:text-[1.95rem]"
+              >
+                تحقيق نتائج أفضل لممارستك ومرضاك
+              </h2>
             </div>
             <div class="mt-8 grid gap-6 md:grid-cols-3">
-              <article class="results-card overflow-hidden bg-white shadow-[0_12px_32px_rgba(15,23,42,0.05)]">
-                <div class="overflow-hidden rounded-[24px]"><img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80" alt="طبيبة تستخدم أدوات مسح رقمية" class="h-[220px] w-full object-cover" /></div>
-                <div class="px-4 pb-2 pt-5 text-center"><h3 class="text-[1.08rem] font-extrabold text-slate-900">زيادة القدرة على التنبؤ بالعلاج</h3><p class="mt-3 text-[0.93rem] leading-[1.9] text-slate-700">استخدم أدوات المسح المتقدمة لتصور التصميمات الرقمية والموافقة عليها، وتقديم نتائج ناجحة للمريض مع تحكم أوضح في كل مرحلة.</p></div>
+              <article
+                class="results-card overflow-hidden bg-white shadow-[0_12px_32px_rgba(15,23,42,0.05)]"
+              >
+                <div class="overflow-hidden rounded-[24px]">
+                  <img
+                    src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80"
+                    alt="طبيبة تستخدم أدوات مسح رقمية"
+                    class="h-[220px] w-full object-cover"
+                  />
+                </div>
+                <div class="px-4 pb-2 pt-5 text-center">
+                  <h3 class="text-[1.08rem] font-extrabold text-slate-900">
+                    زيادة القدرة على التنبؤ بالعلاج
+                  </h3>
+                  <p class="mt-3 text-[0.93rem] leading-[1.9] text-slate-700">
+                    استخدم أدوات المسح المتقدمة لتصور التصميمات الرقمية
+                    والموافقة عليها، وتقديم نتائج ناجحة للمريض مع تحكم أوضح في
+                    كل مرحلة.
+                  </p>
+                </div>
               </article>
-              <article class="results-card overflow-hidden bg-white shadow-[0_12px_32px_rgba(15,23,42,0.05)]">
-                <div class="overflow-hidden rounded-[24px]"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1200&q=80" alt="طبيب أسنان يتحدث مع مريض" class="h-[220px] w-full object-cover" /></div>
-                <div class="px-4 pb-2 pt-5 text-center"><h3 class="text-[1.08rem] font-extrabold text-slate-900">تحسين تجربة المريض</h3><p class="mt-3 text-[0.93rem] leading-[1.9] text-slate-700">ارفع مستوى الرعاية عبر ابتكارات مثل الأطقم ذات الموعدين والأجزاء المباشرة إلى النهاية، مع متابعة رقمية تجعل القرارات أوضح وأسرع.</p></div>
+              <article
+                class="results-card overflow-hidden bg-white shadow-[0_12px_32px_rgba(15,23,42,0.05)]"
+              >
+                <div class="overflow-hidden rounded-[24px]">
+                  <img
+                    src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1200&q=80"
+                    alt="طبيب أسنان يتحدث مع مريض"
+                    class="h-[220px] w-full object-cover"
+                  />
+                </div>
+                <div class="px-4 pb-2 pt-5 text-center">
+                  <h3 class="text-[1.08rem] font-extrabold text-slate-900">
+                    تحسين تجربة المريض
+                  </h3>
+                  <p class="mt-3 text-[0.93rem] leading-[1.9] text-slate-700">
+                    ارفع مستوى الرعاية عبر ابتكارات مثل الأطقم ذات الموعدين
+                    والأجزاء المباشرة إلى النهاية، مع متابعة رقمية تجعل القرارات
+                    أوضح وأسرع.
+                  </p>
+                </div>
               </article>
-              <article class="results-card overflow-hidden bg-white shadow-[0_12px_32px_rgba(15,23,42,0.05)]">
-                <div class="overflow-hidden rounded-[24px]"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80" alt="طبيب يشرح حالة علاجية" class="h-[220px] w-full object-cover" /></div>
-                <div class="px-4 pb-2 pt-5 text-center"><h3 class="text-[1.08rem] font-extrabold text-slate-900">تطوير مهارات فريقك</h3><p class="mt-3 text-[0.93rem] leading-[1.9] text-slate-700">اجعل مساعديك يعملون بثقة أكبر في كل سير عمل رقمي، واستفد من تدريب مستمر يدعم فريقك كلما دعت الحاجة.</p></div>
+              <article
+                class="results-card overflow-hidden bg-white shadow-[0_12px_32px_rgba(15,23,42,0.05)]"
+              >
+                <div class="overflow-hidden rounded-[24px]">
+                  <img
+                    src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80"
+                    alt="طبيب يشرح حالة علاجية"
+                    class="h-[220px] w-full object-cover"
+                  />
+                </div>
+                <div class="px-4 pb-2 pt-5 text-center">
+                  <h3 class="text-[1.08rem] font-extrabold text-slate-900">
+                    تطوير مهارات فريقك
+                  </h3>
+                  <p class="mt-3 text-[0.93rem] leading-[1.9] text-slate-700">
+                    اجعل مساعديك يعملون بثقة أكبر في كل سير عمل رقمي، واستفد من
+                    تدريب مستمر يدعم فريقك كلما دعت الحاجة.
+                  </p>
+                </div>
               </article>
             </div>
           </div>
         </section>
 
         <section class="reveal mx-auto mt-20 max-w-[1120px]">
-          <div class="trust-band rounded-[28px] px-6 py-12 text-white md:px-10 md:py-14">
-            <h2 class="text-center text-[1.5rem] font-extrabold leading-tight md:text-[1.95rem]">الآلاف من الممارسات تثق في لازورد في أعمالها المخبرية</h2>
+          <div
+            class="trust-band rounded-[28px] px-6 py-12 text-white md:px-10 md:py-14"
+          >
+            <h2
+              class="text-center text-[1.5rem] font-extrabold leading-tight md:text-[1.95rem]"
+            >
+              الآلاف من الممارسات تثق في لازورد في أعمالها المخبرية
+            </h2>
             <div class="mt-9 grid gap-5 md:grid-cols-3">
-              <article class="trust-metric px-6 py-7 text-center"><div class="text-[2.25rem] font-black tracking-tight">50K+</div><p class="mt-2 text-[0.98rem] font-semibold text-white/90">تقييمات حالات ناجحة</p></article>
-              <article class="trust-metric px-6 py-7 text-center"><div class="text-[2.25rem] font-black tracking-tight">$30K</div><p class="mt-2 text-[0.98rem] font-semibold text-white/90">متوسط توفير سنوي في الوقت والتكلفة</p></article>
-              <article class="trust-metric px-6 py-7 text-center"><div class="text-[2.25rem] font-black tracking-tight">1.5M+</div><p class="mt-2 text-[0.98rem] font-semibold text-white/90">ابتسامة تم تسليمها بثقة</p></article>
+              <article class="trust-metric px-6 py-7 text-center">
+                <div class="text-[2.25rem] font-black tracking-tight">50K+</div>
+                <p class="mt-2 text-[0.98rem] font-semibold text-white/90">
+                  تقييمات حالات ناجحة
+                </p>
+              </article>
+              <article class="trust-metric px-6 py-7 text-center">
+                <div class="text-[2.25rem] font-black tracking-tight">$30K</div>
+                <p class="mt-2 text-[0.98rem] font-semibold text-white/90">
+                  متوسط توفير سنوي في الوقت والتكلفة
+                </p>
+              </article>
+              <article class="trust-metric px-6 py-7 text-center">
+                <div class="text-[2.25rem] font-black tracking-tight">
+                  1.5M+
+                </div>
+                <p class="mt-2 text-[0.98rem] font-semibold text-white/90">
+                  ابتسامة تم تسليمها بثقة
+                </p>
+              </article>
             </div>
           </div>
         </section>
@@ -174,54 +546,245 @@
           <div class="contact-surface px-5 py-10 md:px-8 md:py-12 xl:px-10">
             <div class="grid items-start gap-8 lg:grid-cols-[1.02fr_0.98fr]">
               <div class="text-right">
-                <h2 class="text-[1.75rem] font-extrabold text-slate-900 md:text-[2.2rem]">تواصل معنا</h2>
-                <p class="mt-4 max-w-[460px] text-[1rem] leading-[1.95] text-slate-700">قم بتطوير ممارستك مع لازورد، الشريك الرقمي المتكامل لتحسين تجربة المريض، وتسريع الحلول السريرية، ودعم نمو أعمالك.</p>
-                <h3 class="mt-12 text-[1.55rem] font-extrabold text-slate-900">ابدأ اليوم عن طريق ملء النموذج</h3>
-                <p class="mt-4 max-w-[500px] text-[0.94rem] leading-[1.95] text-slate-600">من خلال تقديم هذا النموذج فأنت توافق على التواصل معك بخصوص الحلول المناسبة لعيادتك، ويمكنك إيقاف الرسائل أو تحديث بياناتك في أي وقت.</p>
+                <h2
+                  class="text-[1.75rem] font-extrabold text-slate-900 md:text-[2.2rem]"
+                >
+                  تواصل معنا
+                </h2>
+                <p
+                  class="mt-4 max-w-[460px] text-[1rem] leading-[1.95] text-slate-700"
+                >
+                  قم بتطوير ممارستك مع لازورد، الشريك الرقمي المتكامل لتحسين
+                  تجربة المريض، وتسريع الحلول السريرية، ودعم نمو أعمالك.
+                </p>
+                <h3 class="mt-12 text-[1.55rem] font-extrabold text-slate-900">
+                  ابدأ اليوم عن طريق ملء النموذج
+                </h3>
+                <p
+                  class="mt-4 max-w-[500px] text-[0.94rem] leading-[1.95] text-slate-600"
+                >
+                  من خلال تقديم هذا النموذج فأنت توافق على التواصل معك بخصوص
+                  الحلول المناسبة لعيادتك، ويمكنك إيقاف الرسائل أو تحديث بياناتك
+                  في أي وقت.
+                </p>
               </div>
               <form data-booking-form class="grid gap-4 sm:grid-cols-2">
-                <label><span class="home-label">الاسم الأول</span><input class="home-input" type="text" placeholder="الاسم الأول" required /></label>
-                <label><span class="home-label">اسم العائلة</span><input class="home-input" type="text" placeholder="اسم العائلة" required /></label>
-                <label><span class="home-label">عنوان البريد الإلكتروني</span><input class="home-input" type="email" placeholder="عنوان البريد الإلكتروني" required /></label>
-                <label><span class="home-label">رقم الهاتف</span><input class="home-input" type="tel" placeholder="رقم الهاتف" required /></label>
-                <label><span class="home-label">دورك في العيادة</span><input class="home-input" type="text" placeholder="دورك في العيادة" /></label>
-                <label><span class="home-label">اسم عيادتك</span><input class="home-input" type="text" placeholder="اسم عيادتك" /></label>
-                <div class="sm:col-span-2 pt-2"><button type="submit" class="cta-button w-full rounded-[14px] bg-lazorda-accent px-6 py-4 text-[1.18rem] font-extrabold text-white">ابدأ الآن</button></div>
+                <label
+                  ><span class="home-label">الاسم الأول</span
+                  ><input
+                    class="home-input"
+                    type="text"
+                    placeholder="الاسم الأول"
+                    required
+                /></label>
+                <label
+                  ><span class="home-label">اسم العائلة</span
+                  ><input
+                    class="home-input"
+                    type="text"
+                    placeholder="اسم العائلة"
+                    required
+                /></label>
+                <label
+                  ><span class="home-label">عنوان البريد الإلكتروني</span
+                  ><input
+                    class="home-input"
+                    type="email"
+                    placeholder="عنوان البريد الإلكتروني"
+                    required
+                /></label>
+                <label
+                  ><span class="home-label">رقم الهاتف</span
+                  ><input
+                    class="home-input"
+                    type="tel"
+                    placeholder="رقم الهاتف"
+                    required
+                /></label>
+                <label
+                  ><span class="home-label">دورك في العيادة</span
+                  ><input
+                    class="home-input"
+                    type="text"
+                    placeholder="دورك في العيادة"
+                /></label>
+                <label
+                  ><span class="home-label">اسم عيادتك</span
+                  ><input
+                    class="home-input"
+                    type="text"
+                    placeholder="اسم عيادتك"
+                /></label>
+                <div class="sm:col-span-2 pt-2">
+                  <button
+                    type="submit"
+                    class="cta-button w-full rounded-[14px] bg-lazorda-accent px-6 py-4 text-[1.18rem] font-extrabold text-white"
+                  >
+                    ابدأ الآن
+                  </button>
+                </div>
               </form>
             </div>
           </div>
         </section>
 
         <section class="reveal mx-auto mt-20 max-w-[1120px]">
-          <div class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10">
+          <div
+            class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10"
+          >
             <div class="text-center">
-              <h2 class="text-[1.45rem] font-extrabold leading-tight text-lazorda-accent md:text-[1.8rem]">تعرّف على المزيد حول مستقبل طب الأسنان وكيف يشكله لازورد</h2>
+              <h2
+                class="text-[1.45rem] font-extrabold leading-tight text-lazorda-accent md:text-[1.8rem]"
+              >
+                تعرّف على المزيد حول مستقبل طب الأسنان وكيف يشكله لازورد
+              </h2>
             </div>
             <div class="mt-8 grid gap-7 lg:grid-cols-[0.75fr_1.25fr]">
               <div class="space-y-5">
-                <article class="media-card overflow-hidden bg-white shadow-[0_12px_32px_rgba(15,23,42,0.05)]"><img src="https://images.unsplash.com/photo-1588776814546-ec7e8f0b61b5?auto=format&fit=crop&w=1200&q=80" alt="معدات مخبر الأسنان الرقمية" class="h-[175px] w-full object-cover" /><div class="px-4 py-4 text-center"><h3 class="text-[1.2rem] font-extrabold text-slate-900">داخل معمل لازورد للمستقبل</h3></div></article>
-                <article class="media-card overflow-hidden bg-white shadow-[0_12px_32px_rgba(15,23,42,0.05)]"><img src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&w=1200&q=80" alt="جلسة عمل داخل مختبر رقمي" class="h-[175px] w-full object-cover" /><div class="px-4 py-4 text-center"><h3 class="text-[1.2rem] font-extrabold text-slate-900">كيف يعمل لازورد</h3></div></article>
+                <article
+                  class="media-card overflow-hidden bg-white shadow-[0_12px_32px_rgba(15,23,42,0.05)]"
+                >
+                  <img
+                    src="https://png.pngtree.com/thumb_back/fh260/background/20220505/pngtree-in-a-laboratory-a-dental-technician-wearing-a-mask-and-gloves-meticulously-crafts-a-prosthetic-tooth-photo-image_40409458.jpg"
+                    alt="معدات مخبر الأسنان الرقمية"
+                    class="h-[175px] w-full object-cover"
+                  />
+                  <div class="px-4 py-4 text-center">
+                    <h3 class="text-[1.2rem] font-extrabold text-slate-900">
+                      داخل معمل لازورد للمستقبل
+                    </h3>
+                  </div>
+                </article>
+                <article
+                  class="media-card overflow-hidden bg-white shadow-[0_12px_32px_rgba(15,23,42,0.05)]"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&w=1200&q=80"
+                    alt="جلسة عمل داخل مختبر رقمي"
+                    class="h-[175px] w-full object-cover"
+                  />
+                  <div class="px-4 py-4 text-center">
+                    <h3 class="text-[1.2rem] font-extrabold text-slate-900">
+                      كيف يعمل لازورد
+                    </h3>
+                  </div>
+                </article>
               </div>
-              <article class="case-card overflow-hidden bg-[#0c5b4c] p-5 text-white shadow-[0_16px_34px_rgba(12,91,76,0.16)]">
+              <article
+                class="case-card overflow-hidden bg-[#0c5b4c] p-5 text-white shadow-[0_16px_34px_rgba(12,91,76,0.16)]"
+              >
                 <div class="grid gap-4 md:grid-cols-2">
-                  <div class="overflow-hidden rounded-[22px] border border-white/10"><img src="https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&w=900&q=80" alt="صورة قبل العلاج" class="h-[330px] w-full object-cover" /></div>
-                  <div class="overflow-hidden rounded-[22px] border border-white/10"><img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=900&q=80" alt="صورة بعد العلاج" class="h-[330px] w-full object-cover" /></div>
+                  <div
+                    class="overflow-hidden rounded-[22px] border border-white/10"
+                  >
+                    <img
+                      src="https://dentalcentreturkey-web-assets.s3.eu-west-2.amazonaws.com/images/contents/smileGallery/dental-centre-turkey-dct-white-44.webp"
+                      alt="صورة قبل العلاج"
+                      class="h-[330px] w-full object-cover"
+                    />
+                  </div>
+                  <div
+                    class="overflow-hidden rounded-[22px] border border-white/10"
+                  >
+                    <img
+                      src="https://www.gorgeoussmiles.com.au/wp-content/uploads/2025/02/890B83E2-0F5D-499C-8D35-D3B68862F7B3.jpg"
+                      alt="صورة بعد العلاج"
+                      class="h-[330px] w-full object-cover"
+                    />
+                  </div>
                 </div>
-                <div class="pt-5 text-center"><h3 class="text-[1.3rem] font-extrabold leading-[1.7] md:text-[1.55rem]">دراسة حالة: 10 وحدات لتحويل ابتسامة الزركونيا</h3></div>
+                <div class="pt-5 text-center">
+                  <h3
+                    class="text-[1.3rem] font-extrabold leading-[1.7] md:text-[1.55rem]"
+                  >
+                    دراسة حالة: 10 وحدات لتحويل ابتسامة الزركونيا
+                  </h3>
+                </div>
               </article>
             </div>
           </div>
         </section>
 
         <section class="reveal mx-auto mt-20 max-w-[1120px]">
-          <div class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10">
+          <div
+            class="home-compact-section px-5 py-10 md:px-8 md:py-12 xl:px-10"
+          >
             <div class="grid items-start gap-10 lg:grid-cols-[0.95fr_1.05fr]">
-              <div class="pt-4 text-center lg:text-right"><h2 class="text-[1.6rem] font-extrabold leading-tight text-slate-900 md:text-[2.1rem]">الأسئلة الشائعة حول لازورد</h2></div>
+              <div class="pt-4 text-center lg:text-right">
+                <h2
+                  class="text-[1.6rem] font-extrabold leading-tight text-slate-900 md:text-[2.1rem]"
+                >
+                  الأسئلة الشائعة حول لازورد
+                </h2>
+              </div>
               <div class="faq-mini space-y-2">
-                <article class="accordion-item open" data-accordion-item><button class="accordion-trigger" type="button" data-accordion-trigger><span>ما هو لازورد؟</span><span class="accordion-icon">⌄</span></button><div class="accordion-panel" data-accordion-panel><p>لازورد منصة عمل رقمية ومخبر أسنان متكامل يساعد العيادات على تحسين التواصل، وتسريع الإنتاج، ورفع جودة النتائج النهائية.</p></div></article>
-                <article class="accordion-item" data-accordion-item><button class="accordion-trigger" type="button" data-accordion-trigger><span>ما هي فوائد طب الأسنان الرقمي؟</span><span class="accordion-icon">⌄</span></button><div class="accordion-panel" data-accordion-panel><p>يوفر دقة أعلى، وقتًا أقل في التعديلات، تجربة أفضل للمريض، وقدرة أكبر على متابعة الحالة من البداية حتى التسليم.</p></div></article>
-                <article class="accordion-item" data-accordion-item><button class="accordion-trigger" type="button" data-accordion-trigger><span>ما هي منتجات مختبر الأسنان التي تقدمها لازورد؟</span><span class="accordion-icon">⌄</span></button><div class="accordion-panel" data-accordion-panel><p>نقدم حلول الزركونيا، الأطقم، التركيبات النهائية، الشفافيات، وواقيات الأسنان، مع خيارات تسليم رقمية تناسب كل عيادة.</p></div></article>
-                <article class="accordion-item" data-accordion-item><button class="accordion-trigger" type="button" data-accordion-trigger><span>كيف تتم مقارنة لازورد مع مختبرات الأسنان الأخرى؟</span><span class="accordion-icon">⌄</span></button><div class="accordion-panel" data-accordion-panel><p>نجمع بين الخبرة المخبرية، والتواصل الفوري، والواجهة الرقمية الواضحة في تجربة واحدة تقلل التأخير وتمنح الفريق رؤية أفضل للحالات.</p></div></article>
+                <article class="accordion-item open" data-accordion-item>
+                  <button
+                    class="accordion-trigger"
+                    type="button"
+                    data-accordion-trigger
+                  >
+                    <span>ما هو لازورد؟</span
+                    ><span class="accordion-icon">⌄</span>
+                  </button>
+                  <div class="accordion-panel" data-accordion-panel>
+                    <p>
+                      لازورد منصة عمل رقمية ومخبر أسنان متكامل يساعد العيادات
+                      على تحسين التواصل، وتسريع الإنتاج، ورفع جودة النتائج
+                      النهائية.
+                    </p>
+                  </div>
+                </article>
+                <article class="accordion-item" data-accordion-item>
+                  <button
+                    class="accordion-trigger"
+                    type="button"
+                    data-accordion-trigger
+                  >
+                    <span>ما هي فوائد طب الأسنان الرقمي؟</span
+                    ><span class="accordion-icon">⌄</span>
+                  </button>
+                  <div class="accordion-panel" data-accordion-panel>
+                    <p>
+                      يوفر دقة أعلى، وقتًا أقل في التعديلات، تجربة أفضل للمريض،
+                      وقدرة أكبر على متابعة الحالة من البداية حتى التسليم.
+                    </p>
+                  </div>
+                </article>
+                <article class="accordion-item" data-accordion-item>
+                  <button
+                    class="accordion-trigger"
+                    type="button"
+                    data-accordion-trigger
+                  >
+                    <span>ما هي منتجات مختبر الأسنان التي تقدمها لازورد؟</span
+                    ><span class="accordion-icon">⌄</span>
+                  </button>
+                  <div class="accordion-panel" data-accordion-panel>
+                    <p>
+                      نقدم حلول الزركونيا، الأطقم، التركيبات النهائية،
+                      الشفافيات، وواقيات الأسنان، مع خيارات تسليم رقمية تناسب كل
+                      عيادة.
+                    </p>
+                  </div>
+                </article>
+                <article class="accordion-item" data-accordion-item>
+                  <button
+                    class="accordion-trigger"
+                    type="button"
+                    data-accordion-trigger
+                  >
+                    <span>كيف تتم مقارنة لازورد مع مختبرات الأسنان الأخرى؟</span
+                    ><span class="accordion-icon">⌄</span>
+                  </button>
+                  <div class="accordion-panel" data-accordion-panel>
+                    <p>
+                      نجمع بين الخبرة المخبرية، والتواصل الفوري، والواجهة
+                      الرقمية الواضحة في تجربة واحدة تقلل التأخير وتمنح الفريق
+                      رؤية أفضل للحالات.
+                    </p>
+                  </div>
+                </article>
               </div>
             </div>
           </div>
@@ -229,10 +792,40 @@
       </main>
       <footer class="footer-dark mt-20 px-4 py-14 text-white">
         <div class="mx-auto grid max-w-[1120px] gap-10 md:grid-cols-4">
-          <div><h3 class="text-[1.7rem] font-extrabold">لازورد</h3><p class="mt-4 text-[0.95rem] leading-[1.95] text-white/80">شريكك في بناء تجربة رقمية أهدأ، أسرع، وأكثر موثوقية في طب الأسنان الحديث.</p></div>
-          <div><h4 class="text-[1.15rem] font-bold">المنصة</h4><ul class="mt-4 space-y-3 text-white/80"><li><a href="services.html">الخدمات</a></li><li><a href="about.html">عن لازورد</a></li><li><a href="team.html">الفريق</a></li></ul></div>
-          <div><h4 class="text-[1.15rem] font-bold">المحتوى</h4><ul class="mt-4 space-y-3 text-white/80"><li><a href="solutions.html">الحلول</a></li><li><a href="testimonials.html">الآراء</a></li><li><a href="contact.html">التواصل</a></li></ul></div>
-          <div><h4 class="text-[1.15rem] font-bold">ابدأ اليوم</h4><p class="mt-4 text-[0.95rem] leading-[1.9] text-white/80">هل أنت مستعد لتحديث تجربة مختبر الأسنان في عيادتك؟</p><a href="contact.html" class="cta-button mt-5 inline-flex rounded-[12px] bg-white px-6 py-3 font-bold text-lazorda-green">احجز استشارة</a></div>
+          <div>
+            <h3 class="text-[1.7rem] font-extrabold">لازورد</h3>
+            <p class="mt-4 text-[0.95rem] leading-[1.95] text-white/80">
+              شريكك في بناء تجربة رقمية أهدأ، أسرع، وأكثر موثوقية في طب الأسنان
+              الحديث.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-[1.15rem] font-bold">المنصة</h4>
+            <ul class="mt-4 space-y-3 text-white/80">
+              <li><a href="services.html">الخدمات</a></li>
+              <li><a href="about.html">عن لازورد</a></li>
+              <li><a href="team.html">الفريق</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-[1.15rem] font-bold">المحتوى</h4>
+            <ul class="mt-4 space-y-3 text-white/80">
+              <li><a href="solutions.html">الحلول</a></li>
+              <li><a href="testimonials.html">الآراء</a></li>
+              <li><a href="contact.html">التواصل</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-[1.15rem] font-bold">ابدأ اليوم</h4>
+            <p class="mt-4 text-[0.95rem] leading-[1.9] text-white/80">
+              هل أنت مستعد لتحديث تجربة مختبر الأسنان في عيادتك؟
+            </p>
+            <a
+              href="contact.html"
+              class="cta-button mt-5 inline-flex rounded-[12px] bg-white px-6 py-3 font-bold text-lazorda-green"
+              >احجز استشارة</a
+            >
+          </div>
         </div>
       </footer>
     </div>
